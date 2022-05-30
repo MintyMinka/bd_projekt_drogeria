@@ -4,11 +4,11 @@ from tkinter import N
 import PySimpleGUI as sg
 from DatabaseManager import DatabaseManager
 
-HOSTNAME = 'localhost'
-DATABASE = 'postgres'
-USERNAME = 'postgres'
-PASSWORD = 'anita1'
-OPTIONS = '-c search_path=dbo,drogeria'
+HOSTNAME = 'hostname'
+DATABASE = 'database'
+USERNAME = 'username'
+PASSWORD = 'password'
+OPTIONS = 'options'
 
 def stworz_okno(tytul: str, layout: list) -> sg.Window:
     sg.theme('DarkRed')
